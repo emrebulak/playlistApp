@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Gelo Ew Ki Bu",
+        "link": "assets/audio/gelo-ew-ki-bu.mp3",
+        "artist": "Aram Tigran",
+        "image": "assets/img/aram-tigran.jpeg"
+    },
+    {
+        "name": "Gitme Kal",
+        "link": "assets/audio/yara-bere-icindeyim.mp3",
+        "artist": "Hira-i Zerdüş",
+        "image": "assets/img/hirai.jpeg"
+    },
+    {
+        "name": "Aramam",
+        "link": "assets/audio/aramam.mp3",
+        "artist": "İbrahim Tatlises",
+        "image": "assets/img/ibrahim-tatlises.jpeg"
+    },
+    {
+        "name": "Ax Eman",
+        "link": "assets/audio/ax-eman.mp3",
+        "artist": "Rewsan Çeliker",
+        "image": "assets/img/rewsan-celiker.jpeg"
+    },
+    {
+        "name": "Dinle",
+        "link": "assets/audio/dinle.mp3",
+        "artist": "Mahsun Kırmızıgül",
+        "image": "assets/img/mahsun.jpeg"
+    }
+]
