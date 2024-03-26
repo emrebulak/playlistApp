@@ -1,9 +1,9 @@
 [
     {
-        "name": "Gelo Ew Ki Bu",
-        "link": "assets/audio/gelo-ew-ki-bu.mp3",
-        "artist": "Aram Tigran",
-        "image": "assets/img/aram-tigran.jpeg"
+        "name": "Sabahçı Kahvesi",
+        "link": "assets/audio/melekmossosabahcikahvesi.mp3",
+        "artist": "Melek Mosso",
+        "image": "assets/img/melekmosso.jpg"
     },
     {
         "name": "Gitme Kal",
@@ -12,21 +12,21 @@
         "image": "assets/img/hirai.jpeg"
     },
     {
-        "name": "Aramam",
-        "link": "assets/audio/aramam.mp3",
+        "name": "Senden Başka",
+        "link": "assets/audio/erkinkoraysendenbaska.mp3",
         "artist": "İbrahim Tatlises",
-        "image": "assets/img/ibrahim-tatlises.jpeg"
+        "image": "assets/img/erkinkoray.jpg"
     },
     {
-        "name": "Ax Eman",
-        "link": "assets/audio/ax-eman.mp3",
-        "artist": "Rewsan Çeliker",
-        "image": "assets/img/rewsan-celiker.jpeg"
+        "name": "Haber Gelmiyor Yardan",
+        "link": "assets/audio/bulentserdarhabergelmiyoryardan.mp3",
+        "artist": "Bülent Serttaş - Serdar Ortaç",
+        "image": "assets/img/serdarbulent.jpg"
     },
     {
-        "name": "Dinle",
-        "link": "assets/audio/dinle.mp3",
-        "artist": "Mahsun Kırmızıgül",
-        "image": "assets/img/mahsun.jpeg"
+        "name": "İnsafsız",
+        "link": "assets/audio/ibrahimerkalinsafsız.mp3",
+        "artist": "İbrahim Erkal",
+        "image": "assets/img/ibrahimerkal.jpg"
     }
 ]

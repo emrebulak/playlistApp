@@ -19,6 +19,7 @@ const songCurrentTime = document.querySelector('#songCurrentTime');
 const songDuration = document.querySelector('#songTotatTime');
 
 const progress = document.querySelector('#progress');
+const progressContainer = document.querySelector('#progressContainer');
 
 
 let songs = [];
@@ -26,10 +27,7 @@ let mixStatus = false;
 let loopStatus = false;
 
 document.addEventListener('DOMContentLoaded', async () => {
-
     songs = await getAllData();
-    console.log(songs);
-
     let temp = await songs.map((data) => `<div onclick="handleClick('${data.name}')" class="song-detail">
     <img class="song-detail-image" src="${data.image}" alt="${data.artist}" />
     <div class="song-detail-info">
@@ -42,7 +40,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     artistImage.src = songs[0].image;
     songTitle.textContent = songs[0].name;
     songArtist.textContent = songs[0].artist;
+});
 
+progressContainer.addEventListener('click', (e) => {
+    let width = progressContainer.clientWidth;
+    let clickX = e.offsetX;
+    let duration = audio.duration;
+    audio.currentTime = (clickX / width) * duration;
 });
 
 audio.addEventListener('loadedmetadata', () => {
